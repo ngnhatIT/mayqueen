@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mayqueen Slim và Yodetox · Thảo mộc cho vóc dáng</title>
+  <meta name="description" content="Mayqueen Slim và Yodetox: viên uống thảo mộc từ trà xanh, bứa, khoai nưa, gừng, bồ công anh và lá sen. Giao toàn quốc, thanh toán khi nhận hàng.">
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400;1,7..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/scenes/stage.css">
+  <link rel="stylesheet" href="assets/scenes/thirty.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Drawings of the products, used across the page. Placeholders until product photography exists. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <clipPath id="clip-front"><polygon points="40,62 220,62 220,362 40,362"/></clipPath>
+    <clipPath id="clip-side"><polygon points="220,62 268,34 268,334 220,362"/></clipPath>
+    <clipPath id="clip-label"><rect x="22" y="122" width="116" height="92"/></clipPath>
+  </defs>
+
+  <symbol id="box-slim" viewBox="0 0 300 380">
+    <polygon points="40,62 90,34 268,34 220,62" fill="#FDFCF7"/>
+    <polygon points="96,40 252,40 236,50 82,50" fill="#EEEBDD"/>
+    <polygon points="220,62 268,34 268,334 220,362" fill="#E3E0CF"/>
+    <polygon points="40,62 220,62 220,362 40,362" fill="#F8F6EE"/>
+    <g clip-path="url(#clip-front)">
+      <path d="M40 250 C 90 220, 140 282, 220 238 L220 362 L40 362Z" fill="#D6EBB0"/>
+      <path d="M40 286 C 100 256, 150 318, 220 274 L220 362 L40 362Z" fill="#B4D97A"/>
+      <path d="M40 316 C 95 294, 160 348, 220 304 L220 362 L40 362Z" fill="#8DC63F"/>
+      <path d="M40 346 C 100 330, 150 366, 220 338 L220 362 L40 362Z" fill="#2F5D3A"/>
+    </g>
+    <g clip-path="url(#clip-side)">
+      <path d="M220 238 C 236 228, 252 226, 268 206 L268 334 L220 362Z" fill="#BCD199"/>
+      <path d="M220 274 C 236 264, 252 262, 268 242 L268 334 L220 362Z" fill="#9DBF66"/>
+      <path d="M220 304 C 236 296, 252 292, 268 274 L268 334 L220 362Z" fill="#78AB34"/>
+      <path d="M220 338 C 236 332, 252 328, 268 310 L268 334 L220 362Z" fill="#284F31"/>
+    </g>
+    <path d="M130 84 C 120 92, 120 104, 130 110 C 140 104, 140 92, 130 84Z" fill="#8DC63F"/>
+    <path d="M130 88 L130 108" stroke="#2F5D3A" stroke-width="1.2"/>
+    <text x="130" y="134" text-anchor="middle" font-family="Literata, Georgia, serif" font-size="17" font-weight="600" letter-spacing="2.4" fill="#2F5D3A">MAYQUEEN</text>
+    <text x="130" y="176" text-anchor="middle" font-family="Literata, Georgia, serif" font-size="40" font-weight="500" fill="#2F5D3A">Slim</text>
+    <text x="130" y="198" text-anchor="middle" font-family="Literata, Georgia, serif" font-size="8" fill="#26332B">Thực phẩm bảo vệ sức khỏe</text>
+    <circle cx="186" cy="226" r="17" fill="#8DC63F"/>
+    <text x="186" y="228" text-anchor="middle" font-family="Literata, Georgia, serif" font-size="13" font-weight="600" fill="#26332B">30</text>
+    <text x="186" y="236" text-anchor="middle" font-family="Literata, Georgia, serif" font-size="6" fill="#26332B">viên</text>
+    <text x="244" y="150" text-anchor="middle" font-family="Literata, Georgia, serif" font-size="9" fill="#5E6B55" transform="rotate(-90 244 150)">Mayqueen Slim · 30 viên nang</text>
+  </symbol>
+
+  <symbol id="box-yodetox" viewBox="0 0 300 380">
+    <polygon points="40,62 90,34 268,34 220,62" fill="#FDFCF7"/>
+    <polygon points="96,40 252,40 236,50 82,50" fill="#EEEBDD"/>
+    <polygon points="220,62 268,34 268,334 220,362" fill="#E3E0CF"/>
+    <polygon points="40,62 220,62 220,362 40,362" fill="#F8F6EE"/>
+    <g clip-path="url(#clip-front)">
+      <path d="M40 240 C 100 270, 150 214, 220 248 L220 362 L40 362Z" fill="#CDEBE2"/>
+      <path d="M40 278 C 100 304, 160 250, 220 284 L220 362 L40 362Z" fill="#9ED9C8"/>
+      <path d="M40 312 C 100 334, 150 290, 220 314 L220 362 L40 362Z" fill="#4FB39C"/>
+      <path d="M40 344 C 100 360, 160 326, 220 346 L220 362 L40 362Z" fill="#1F5C57"/>
+    </g>
+    <g clip-path="url(#clip-side)">
+      <path d="M220 248 C 236 244, 252 236, 268 220 L268 334 L220 362Z" fill="#A9CFC3"/>
+      <path d="M220 284 C 236 280, 252 270, 268 256 L268 334 L220 362Z" fill="#7FBCAA"/>
+      <path d="M220 314 C 236 308, 252 300, 268 288 L268 334 L220 362Z" fill="#3E9883"/>
+      <path d="M220 346 C 236 342, 252 334, 268 320 L268 334 L220 362Z" fill="#184A46"/>
+    </g>
+    <path d="M130 84 C 120 92, 120 104, 130 110 C 140 104, 140 92, 130 84Z" fill="#4FB39C"/>
+    <path d="M130 88 L130 108" stroke="#1F5C57" stroke-width="1.2"/>
+    <text x="130" y="134" text-anchor="middle" font-family="Literata, Georgia, serif" font-size="17" font-weight="600" letter-spacing="2.4" fill="#1F5C57">MAYQUEEN</text>
+    <text x="130" y="176" text-anchor="middle" font-family="Literata, Georgia, serif" font-size="36" font-weight="500" fill="#1F5C57">Yodetox</text>
+    <text x="130" y="198" text-anchor="middle" font-family="Literata, Georgia, serif" font-size="8" fill="#26332B">Thực phẩm bảo vệ sức khỏe</text>
+    <circle cx="186" cy="226" r="17" fill="#4FB39C"/>
+    <text x="186" y="228" text-anchor="middle" font-family="Literata, Georgia, serif" font-size="13" font-weight="600" fill="#F8F6EE">30</text>
+    <text x="186" y="236" text-anchor="middle" font-family="Literata, Georgia, serif" font-size="6" fill="#F8F6EE">viên</text>
+    <text x="244" y="150" text-anchor="middle" font-family="Literata, Georgia, serif" font-size="9" fill="#4F6660" transform="rotate(-90 244 150)">Mayqueen Yodetox · 30 viên nang</text>
+  </symbol>
+
+  <symbol id="bottle" viewBox="0 0 160 260">
+    <rect x="44" y="8" width="72" height="44" rx="6" fill="#2F5D3A"/>
+    <g fill="#24492D">
+      <rect x="52" y="12" width="3" height="36"/><rect x="61" y="12" width="3" height="36"/><rect x="70" y="12" width="3" height="36"/>
+      <rect x="79" y="12" width="3" height="36"/><rect x="88" y="12" width="3" height="36"/><rect x="97" y="12" width="3" height="36"/><rect x="106" y="12" width="3" height="36"/>
+    </g>
+    <rect x="50" y="50" width="60" height="16" fill="#EFEDE3"/>
+    <path d="M50 64 C 30 66, 20 76, 20 92 L20 238 C 20 248, 28 254, 38 254 L122 254 C 132 254, 140 248, 140 238 L140 92 C 140 76, 130 66, 110 64Z" fill="#FDFCF7"/>
+    <path d="M112 64 C 130 66, 140 76, 140 92 L140 238 C 140 248, 132 254, 122 254 L104 254 L104 64Z" fill="#ECEADF"/>
+    <rect x="22" y="122" width="116" height="92" fill="#F8F6EE"/>
+    <g clip-path="url(#clip-label)">
+      <path d="M22 176 C 50 160, 90 196, 138 170 L138 214 L22 214Z" fill="#D6EBB0"/>
+      <path d="M22 190 C 54 176, 96 208, 138 186 L138 214 L22 214Z" fill="#8DC63F"/>
+      <path d="M22 204 C 56 196, 96 214, 138 202 L138 214 L22 214Z" fill="#2F5D3A"/>
+    </g>
+    <text x="80" y="142" text-anchor="middle" font-family="Literata, Georgia, serif" font-size="10" font-weight="600" letter-spacing="1.4" fill="#2F5D3A">MAYQUEEN</text>
+    <text x="80" y="164" text-anchor="middle" font-family="Literata, Georgia, serif" font-size="20" font-weight="500" fill="#2F5D3A">Slim</text>
+    <rect x="30" y="80" width="6" height="150" rx="3" fill="#FFFFFF" opacity="0.85"/>
+  </symbol>
+
+  <symbol id="capsule" viewBox="0 0 64 26">
+    <path d="M13 1 L32 1 L32 25 L13 25 C 6 25, 1 19, 1 13 C 1 7, 6 1, 13 1Z" fill="#8DC63F"/>
+    <path d="M32 1 L51 1 C 58 1, 63 7, 63 13 C 63 19, 58 25, 51 25 L32 25Z" fill="#2F5D3A"/>
+    <rect x="30" y="1" width="4" height="24" fill="#78AB34"/>
+    <rect x="8" y="5" width="16" height="3.4" rx="1.7" fill="#FFFFFF" opacity="0.6"/>
+    <rect x="38" y="5" width="12" height="3" rx="1.5" fill="#FFFFFF" opacity="0.22"/>
+  </symbol>
+
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M16 16 L20.5 20.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8.5" r="3.8" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4.5 20 C 5.5 15.8, 8.5 14, 12 14 C 15.5 14, 18.5 15.8, 19.5 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8 H19 L18 20 H6 Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 8 V6.5 C 9 4.8, 10.3 3.5, 12 3.5 C 13.7 3.5, 15 4.8, 15 6.5 V8" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8 H20 M4 16 H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6 L18 18 M18 6 L6 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-prev" viewBox="0 0 24 24"><path d="M14.5 6 L8.5 12 L14.5 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-next" viewBox="0 0 24 24"><path d="M9.5 6 L15.5 12 L9.5 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4.5 6.5 C 4.5 5.4, 5.4 4.5, 6.5 4.5 H17.5 C 18.6 4.5, 19.5 5.4, 19.5 6.5 V14 C 19.5 15.1, 18.6 16 17.5 16 H10 L6 19.5 V16 H6.5 C 5.4 16, 4.5 15.1, 4.5 14 Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+</svg>
+
+<a class="skip" href="#noi-dung">Bỏ qua, tới nội dung</a>
+
+<!-- The bar that comes back when the visitor scrolls up -->
+<div class="topbar" data-topbar>
+  <div class="topbar__inner">
+    <a class="wordmark" href="#trang-chu">Mayqueen</a>
+    <nav class="topbar__links" aria-label="Lối tắt">
+      <a class="link" href="#san-pham">Sản phẩm</a>
+      <a class="link" href="#cau-chuyen">Về Mayqueen</a>
+      <a class="link" href="#song-dep">Sống đẹp</a>
+      <a class="link" href="#uu-dai">Khuyến mãi</a>
+    </nav>
+    <button class="cart-button" type="button" data-open-cart aria-label="Mở giỏ hàng">
+      <svg width="20" height="20" aria-hidden="true"><use href="#i-bag"/></svg>
+      <span>Giỏ hàng</span>
+      <span class="count" data-cart-count>0</span>
+    </button>
+  </div>
+</div>
+
+<main class="sheet-stack" id="noi-dung">
+
+  <!-- 1. The front of the box -->
+  <header class="hero" id="trang-chu">
+    <div class="notice" role="note">
+      <p>Miễn phí giao hàng cho đơn từ 500.000&nbsp;đ</p>
+      <p class="only-wide">Hàng chính hãng, đổi trả trong 7&nbsp;ngày</p>
+      <p class="only-wide">Hotline <a href="tel:18006789">1800 6789</a>, miễn cước</p>
+    </div>
+
+    <div class="nav">
+      <a class="wordmark" href="#trang-chu" aria-label="Mayqueen, trang chủ">Mayqueen</a>
+      <nav class="nav__links" aria-label="Chính">
+        <a class="link" href="#san-pham">Sản phẩm</a>
+        <a class="link" href="#cau-chuyen">Về Mayqueen</a>
+        <a class="link" href="#song-dep">Sống đẹp</a>
+        <a class="link" href="#uu-dai">Khuyến mãi</a>
+      </nav>
+      <div class="nav__tools">
+        <button class="icon-button" type="button" data-open-search aria-label="Tìm kiếm"><svg width="22" height="22" aria-hidden="true"><use href="#i-search"/></svg></button>
+        <a class="icon-button only-wide-flex" href="#tai-khoan" aria-label="Tài khoản"><svg width="22" height="22" aria-hidden="true"><use href="#i-user"/></svg></a>
+        <button class="cart-button" type="button" data-open-cart aria-label="Mở giỏ hàng">
+          <svg width="20" height="20" aria-hidden="true"><use href="#i-bag"/></svg>
+          <span class="only-wide">Giỏ hàng</span>
+          <span class="count" data-cart-count>0</span>
+        </button>
+        <button class="icon-button only-narrow" type="button" data-open-menu aria-label="Mở menu" aria-expanded="false" aria-controls="menu"><svg width="24" height="24" aria-hidden="true"><use href="#i-menu"/></svg></button>
+      </div>
+    </div>
+
+    <div class="hero__table" aria-hidden="true">
+      <svg class="hero__bottle" viewBox="0 0 160 260"><use href="#bottle"/></svg>
+      <svg class="hero__yodetox" viewBox="0 0 300 380"><use href="#box-yodetox"/></svg>
+    </div>
+
+    <article class="card" data-card>
+      <span class="card__corner card__corner--tl" aria-hidden="true"></span>
+      <span class="card__corner card__corner--tr" aria-hidden="true"></span>
+      <span class="card__corner card__corner--bl" aria-hidden="true"></span>
+      <span class="card__corner card__corner--br" aria-hidden="true"></span>
+
+      <div class="card__body">
+        <h1 class="display card__title lines">
+          <span class="line"><span data-line style="--i:0">Mayqueen</span></span>
+          <span class="line card__title-2"><span data-line style="--i:1">Slim</span></span>
+        </h1>
+        <p class="lead card__lead" data-load style="--d:420ms">Viên uống thảo mộc từ trà xanh, bứa và khoai nưa, hỗ trợ kiểm soát cân nặng cùng chế độ ăn uống hợp lý.</p>
+        <ul class="card__facts" data-load style="--d:480ms">
+          <li>Thực phẩm bảo vệ sức khỏe</li>
+          <li aria-hidden="true" class="diamond"></li>
+          <li>Hộp 1 lọ 30 viên</li>
+        </ul>
+        <p class="lead nums card__price" data-load style="--d:500ms">390.000&nbsp;đ</p>
+        <div class="card__actions" data-load style="--d:540ms">
+          <button class="button" type="button" data-add="slim-1">Thêm vào giỏ</button>
+          <a class="link-plain" href="#san-pham">Xem cả Yodetox và combo</a>
+        </div>
+      </div>
+
+      <div class="card__waves" aria-hidden="true">
+        <svg viewBox="0 0 1000 420" preserveAspectRatio="none" class="waves">
+          <path data-wave style="--w:0" d="M0 120 C 180 40, 330 210, 560 120 C 760 40, 880 90, 1000 60 L1000 420 L0 420Z" fill="#D6EBB0"/>
+          <path data-wave style="--w:1" d="M0 200 C 220 120, 380 280, 620 190 C 800 120, 900 170, 1000 140 L1000 420 L0 420Z" fill="#B4D97A"/>
+          <path data-wave style="--w:2" d="M0 270 C 200 210, 400 340, 640 270 C 820 210, 920 250, 1000 230 L1000 420 L0 420Z" fill="#8DC63F"/>
+          <path data-wave style="--w:3" d="M0 340 C 240 300, 420 400, 660 350 C 840 310, 930 340, 1000 330 L1000 420 L0 420Z" fill="#2F5D3A"/>
+        </svg>
+        <p class="card__warning">Thực phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh.</p>
+      </div>
+    </article>
+  </header>
+
+  <!-- 2. One capsule a morning: the scroll scene -->
+  <section class="scene thirty" id="cach-dung" data-scene="thirty" data-options='{"hold": 2}' aria-labelledby="thirty-title">
+    <div class="scene-stage">
+      <div class="thirty__grid">
+        <div class="thirty__text">
+          <h2 class="head" id="thirty-title">Mỗi sáng một viên</h2>
+          <p>Mỗi lọ Mayqueen Slim có 30 viên nang. Uống một viên với nước ấm, trước bữa sáng khoảng 30&nbsp;phút.</p>
+          <p>Đến sáng thứ ba mươi, lọ vừa hết. Đặt lọ mới trước đó vài ngày để liệu trình không bị ngắt quãng.</p>
+          <p class="lead thirty__count" aria-live="off"><span class="nums" data-count>30</span> trong 30 buổi sáng</p>
+        </div>
+        <div class="thirty__month">
+          <div class="thirty__bottle-wrap"><svg class="thirty__bottle" viewBox="0 0 160 260" role="img" aria-label="Lọ Mayqueen Slim, hình vẽ"><use href="#bottle"/></svg></div>
+          <ol class="days" aria-label="Một tháng, mỗi ngày một viên">
+            <li class="day"><span class="day__n">1</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">2</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">3</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">4</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">5</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">6</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">7</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">8</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">9</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">10</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">11</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">12</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">13</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">14</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">15</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">16</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">17</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">18</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">19</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">20</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">21</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">22</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">23</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">24</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">25</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">26</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">27</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">28</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">29</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+            <li class="day"><span class="day__n">30</span><span class="day__fill"></span><span class="day__pill" aria-hidden="true"><svg viewBox="0 0 64 26"><use href="#capsule"/></svg></span></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Prices, set like a menu -->
+  <section class="prices" id="san-pham" aria-labelledby="prices-title">
+    <div class="prices__side">
+      <h2 class="head" id="prices-title" data-lines>Bảng giá</h2>
+      <p class="prices__note" data-reveal style="--i:1">Giá đã gồm VAT. Mua combo rẻ hơn mua lẻ, giao toàn quốc trong 2–4&nbsp;ngày.</p>
+      <figure class="prices__picture" data-reveal="mask" style="--i:2">
+        <svg viewBox="0 0 400 500" role="img" aria-label="Hình vẽ hộp Yodetox và hộp Mayqueen Slim đứng cạnh nhau">
+          <rect width="400" height="500" fill="#D6EBB0"/>
+          <rect y="410" width="400" height="90" fill="#C6E199"/>
+          <use href="#box-yodetox" x="-14" y="74" width="250" height="316"/>
+          <use href="#box-slim" x="128" y="110" width="270" height="342"/>
+          <use href="#bottle" x="40" y="330" width="90" height="146"/>
+        </svg>
+        <figcaption>Hình vẽ minh họa, sẽ thay bằng ảnh chụp sản phẩm.</figcaption>
+      </figure>
+    </div>
+
+    <div class="prices__list">
+      <div class="menu-group" data-reveal="row" style="--i:0">
+        <h3 class="menu-group__name"><span>Mayqueen Slim</span><span class="menu-group__unit">đồng</span></h3>
+        <div class="menu-item">
+          <p class="menu-item__row"><span>Một hộp, 30 viên</span><span class="nums">390.000</span></p>
+          <p class="menu-item__desc">Đủ một tháng, mỗi sáng một viên.</p>
+          <button class="add" type="button" data-add="slim-1">Thêm vào giỏ</button>
+        </div>
+        <div class="menu-item">
+          <p class="menu-item__row"><span>Liệu trình ba hộp</span><span class="nums">1.050.000</span></p>
+          <p class="menu-item__desc">Ba tháng liền, tiết kiệm 120.000&nbsp;đ.</p>
+          <button class="add" type="button" data-add="slim-3">Thêm vào giỏ</button>
+        </div>
+      </div>
+
+      <div class="menu-group menu-group--mint" data-reveal="row" style="--i:1">
+        <h3 class="menu-group__name"><span>Yodetox</span><span class="menu-group__unit">đồng</span></h3>
+        <div class="menu-item">
+          <p class="menu-item__row"><span>Một hộp, 30 viên</span><span class="nums">320.000</span></p>
+          <p class="menu-item__desc">Gừng, bồ công anh và lá sen, uống sau bữa tối.</p>
+          <button class="add" type="button" data-add="yodetox-1">Thêm vào giỏ</button>
+        </div>
+        <div class="menu-item">
+          <p class="menu-item__row"><span>Liệu trình ba hộp</span><span class="nums">870.000</span></p>
+          <p class="menu-item__desc">Ba tháng liền, tiết kiệm 90.000&nbsp;đ.</p>
+          <button class="add" type="button" data-add="yodetox-3">Thêm vào giỏ</button>
+        </div>
+      </div>
+
+      <div class="menu-group" data-reveal="row" style="--i:2">
+        <h3 class="menu-group__name"><span>Combo Slim và Yodetox</span><span class="menu-group__unit">đồng</span></h3>
+        <div class="menu-item">
+          <p class="menu-item__row"><span>Một tháng</span><span class="nums">640.000</span></p>
+          <p class="menu-item__desc">Một hộp mỗi loại, rẻ hơn mua lẻ 70.000&nbsp;đ.</p>
+          <button class="add" type="button" data-add="combo-1">Thêm vào giỏ</button>
+        </div>
+        <div class="menu-item">
+          <p class="menu-item__row"><span>Ba tháng</span><span class="nums">1.790.000</span></p>
+          <p class="menu-item__desc">Ba hộp mỗi loại, rẻ hơn mua lẻ 340.000&nbsp;đ.</p>
+          <button class="add" type="button" data-add="combo-3">Thêm vào giỏ</button>
+        </div>
+      </div>
+
+      <div class="menu-group" data-reveal="row" style="--i:3">
+        <h3 class="menu-group__name"><span>Giao hàng và thanh toán</span></h3>
+        <div class="menu-item">
+          <p class="menu-item__row"><span>Đơn từ 500.000&nbsp;đ</span><span>Miễn phí</span></p>
+          <p class="menu-item__desc">Giao qua GHN, GHTK hoặc Viettel Post.</p>
+        </div>
+        <div class="menu-item">
+          <p class="menu-item__row"><span>Đơn dưới 500.000&nbsp;đ</span><span class="nums">30.000</span></p>
+          <p class="menu-item__desc">Đồng giá toàn quốc.</p>
+        </div>
+        <div class="menu-item">
+          <p class="menu-item__row"><span>Thanh toán</span><span>Khi nhận hàng</span></p>
+          <p class="menu-item__desc">Hoặc chuyển khoản QR, MoMo, ZaloPay, VNPay, thẻ.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. The consultation slip: the live thing -->
+  <section class="slip-section" id="phieu-tu-van" aria-labelledby="slip-title">
+    <form class="slip paper scallop" id="slip" action="#san-pham" data-reveal="sheet">
+      <h2 class="head slip__title" id="slip-title">Phiếu chọn liệu trình</h2>
+      <p class="slip__intro">Năm câu hỏi, khoảng một phút. Phiếu chỉ gợi ý; dược sĩ của Mayqueen luôn sẵn sàng tư vấn kỹ hơn.</p>
+
+      <fieldset class="q" data-q="goal">
+        <legend>Bạn muốn ưu tiên điều gì lúc này?</legend>
+        <label class="opt"><input type="radio" name="goal" value="slim"><span>Giữ vóc dáng gọn gàng</span></label>
+        <label class="opt"><input type="radio" name="goal" value="detox"><span>Bụng nhẹ, tiêu hóa êm hơn</span></label>
+        <label class="opt"><input type="radio" name="goal" value="both"><span>Cả hai điều trên</span></label>
+      </fieldset>
+
+      <fieldset class="q" data-q="meal">
+        <legend>Bữa ăn hằng ngày của bạn thường thế nào?</legend>
+        <label class="opt"><input type="radio" name="meal" value="carb"><span>Nhiều cơm, bánh và đồ ngọt</span></label>
+        <label class="opt"><input type="radio" name="meal" value="fat"><span>Hay ăn ngoài, nhiều dầu mỡ</span></label>
+        <label class="opt"><input type="radio" name="meal" value="balanced"><span>Khá cân bằng, nhiều rau</span></label>
+      </fieldset>
+
+      <fieldset class="q" data-q="move">
+        <legend>Mỗi tuần bạn vận động bao nhiêu?</legend>
+        <label class="opt"><input type="radio" name="move" value="none"><span>Gần như không</span></label>
+        <label class="opt"><input type="radio" name="move" value="some"><span>Một đến hai buổi</span></label>
+        <label class="opt"><input type="radio" name="move" value="often"><span>Ba buổi trở lên</span></label>
+      </fieldset>
+
+      <fieldset class="q" data-q="safety">
+        <legend>Bạn có đang mang thai, cho con bú hoặc điều trị bệnh?</legend>
+        <label class="opt"><input type="radio" name="safety" value="yes"><span>Có</span></label>
+        <label class="opt"><input type="radio" name="safety" value="no"><span>Không</span></label>
+      </fieldset>
+
+      <fieldset class="q" data-q="length">
+        <legend>Bạn muốn bắt đầu với liệu trình bao lâu?</legend>
+        <label class="opt"><input type="radio" name="length" value="1"><span>Một tháng, để làm quen</span></label>
+        <label class="opt"><input type="radio" name="length" value="3"><span>Ba tháng, đều đặn</span></label>
+      </fieldset>
+
+      <noscript><button class="button" type="submit">Xem bảng giá</button></noscript>
+    </form>
+
+    <aside class="stub paper" aria-labelledby="stub-title" aria-live="polite" data-reveal="sheet" style="--i:1">
+      <h3 class="stub__title" id="stub-title">Liệu trình gợi ý cho bạn</h3>
+      <p class="stub__progress"><span class="nums" data-answered>0</span> trong 5 câu đã trả lời</p>
+      <div class="stub__bar" aria-hidden="true"><span data-answered-bar></span></div>
+      <div class="stub__result" data-result>
+        <p class="stub__empty">Trả lời đủ năm câu, gợi ý và giá sẽ hiện ở đây.</p>
+      </div>
+      <p class="stub__foot">Không chắc chắn? <a class="link-plain" href="https://zalo.me/" data-zalo>Hỏi dược sĩ qua Zalo</a>.</p>
+    </aside>
+  </section>
+
+  <!-- 5. The label card: what is printed on every box -->
+  <section class="label-section" id="cam-ket" aria-labelledby="label-title">
+    <div class="label-card paper" data-reveal="tilt">
+      <h2 class="head label-card__title" id="label-title">In trên mỗi hộp</h2>
+      <figure class="label-card__plate">
+        <img src="../assets/sen.jpg" width="1417" height="2047" loading="lazy" decoding="async" alt="Tranh khắc màu cây sen: hoa hồng, lá tròn, gương sen và ngó sen dưới nước">
+      </figure>
+      <ul class="label-card__lines">
+        <li data-reveal="row" style="--i:0">Thành phần ghi rõ từng loại, từng liều lượng</li>
+        <li data-reveal="row" style="--i:1">Sản xuất theo tiêu chuẩn GMP</li>
+        <li data-reveal="row" style="--i:2">Công bố theo quy định của Bộ Y tế</li>
+        <li data-reveal="row" style="--i:3">Dược sĩ tư vấn miễn phí, mỗi ngày</li>
+      </ul>
+      <dl class="label-card__legal">
+        <div><dt>Số tiếp nhận công bố</dt><dd>Đang cập nhật</dd></div>
+        <div><dt>Nhà sản xuất</dt><dd>Đang cập nhật</dd></div>
+        <div><dt>Phân phối</dt><dd>Công ty Mayqueen</dd></div>
+      </dl>
+      <p class="label-card__more"><a class="link-plain" href="#chat-luong">Xem giấy tờ và kết quả kiểm nghiệm</a></p>
+    </div>
+  </section>
+
+  <!-- 6. The letter tucked into the box -->
+  <section class="letter-section" id="cau-chuyen" aria-labelledby="letter-title">
+    <figure class="letter-section__plate" data-reveal="mask">
+      <img src="../assets/tra-xanh.jpg" width="1424" height="1725" loading="lazy" decoding="async" alt="Tranh khắc màu cành chè: lá xanh, hoa trắng nhụy vàng, quả và hạt chè">
+      <figcaption>Camellia sinensis, cây chè. Tranh trong Köhler’s Medizinal-Pflanzen.</figcaption>
+    </figure>
+    <article class="letter paper" data-reveal="sheet">
+      <h2 class="letter__hello" id="letter-title">Gửi bạn, người mở hộp</h2>
+      <p>Mayqueen bắt đầu từ một câu hỏi rất đời thường: làm sao chăm sóc vóc dáng mà không phải nhịn ăn, cũng không phải tin vào những lời hứa quá đà.</p>
+      <p>Chúng tôi chọn những loại thảo mộc quen với bữa cơm và ấm trà của người Việt: trà xanh, gừng, lá sen, bứa. Mỗi loại đều được đọc kỹ nghiên cứu trước khi vào công thức.</p>
+      <p>Mỗi viên đều <mark>ghi rõ thành phần trên nhãn</mark>. Mỗi hộp đều in số công bố. Muốn hỏi thêm, dược sĩ của chúng tôi trả lời trên Zalo mỗi ngày.</p>
+      <p>Viên uống chỉ là phần nhỏ. Phần lớn là bữa ăn đủ chất, giấc ngủ đủ dài và vài buổi đi bộ mỗi tuần. Chúng tôi viết “Sống đẹp cùng Mayqueen” để phần lớn ấy dễ hơn một chút.</p>
+      <p class="letter__sign">Đội ngũ Mayqueen</p>
+      <p class="letter__role">Thư gửi kèm trong mỗi hộp</p>
+      <div class="letter__strip">
+        <p>Viết cho chúng tôi: <a class="link-plain" href="mailto:xinchao@mayqueen.vn">xinchao@mayqueen.vn</a></p>
+        <a class="button button--ink" href="#cau-chuyen-day-du">Đọc câu chuyện</a>
+      </div>
+    </article>
+  </section>
+
+  <!-- 7. Six herbs, plate by plate -->
+  <section class="herbs" id="thanh-phan" aria-labelledby="herbs-title">
+    <div class="herbs__stage">
+      <div class="herbs__top">
+        <div>
+          <h2 class="head" id="herbs-title" data-lines>Sáu loại thảo mộc</h2>
+          <p class="herbs__intro" data-reveal style="--i:1">Ba trong Mayqueen Slim, ba trong Yodetox. Kéo sang để xem từng loại.</p>
+        </div>
+        <div class="herbs__buttons">
+          <button class="square" type="button" data-herbs-prev aria-label="Thảo mộc trước"><svg width="22" height="22" aria-hidden="true"><use href="#i-prev"/></svg></button>
+          <button class="square" type="button" data-herbs-next aria-label="Thảo mộc tiếp theo"><svg width="22" height="22" aria-hidden="true"><use href="#i-next"/></svg></button>
+        </div>
+      </div>
+      <div class="herbs__bar" aria-hidden="true"><span data-herbs-bar></span></div>
+      <ul class="herbs__track" data-herbs-track data-stagger>
+        <li class="herb" style="--gap:96px">
+          <h3 class="herb__name">Trà xanh, phần lá</h3>
+          <p class="herb__text">Lá cây chè, nguồn catechin được nghiên cứu nhiều trong nhóm thực vật. Có trong Mayqueen Slim.</p>
+          <figure class="herb__plate"><img src="../assets/tra-xanh.jpg" width="1424" height="1725" loading="lazy" decoding="async" alt="Tranh khắc màu cành chè có hoa trắng"><figcaption>Camellia sinensis, Köhler</figcaption></figure>
+        </li>
+        <li class="herb" style="--gap:140px">
+          <h3 class="herb__name">Bứa, phần vỏ quả</h3>
+          <p class="herb__text">Quả của chi Garcinia, vị chua, quen trong món canh chua miền Nam. Có trong Mayqueen Slim.</p>
+          <figure class="herb__plate"><img src="../assets/bua.jpg" width="1600" height="2249" loading="lazy" decoding="async" alt="Tranh khắc màu cành bứa với lá to và quả tròn xanh"><figcaption>Garcinia morella, Köhler</figcaption></figure>
+        </li>
+        <li class="herb" style="--gap:80px">
+          <h3 class="herb__name">Khoai nưa, phần củ</h3>
+          <p class="herb__text">Củ khoai nưa cho chất xơ glucomannan, nở ra khi gặp nước. Có trong Mayqueen Slim.</p>
+          <figure class="herb__plate"><img src="../assets/khoai-nua.jpg" width="1600" height="1964" loading="lazy" decoding="async" alt="Tranh khắc màu hoa khoai nưa đỏ sẫm và lá xẻ thùy"><figcaption>Amorphophallus konjac, Curtis’s Botanical Magazine</figcaption></figure>
+        </li>
+        <li class="herb" style="--gap:128px">
+          <h3 class="herb__name">Gừng, phần thân rễ</h3>
+          <p class="herb__text">Vị ấm, quen thuộc trong ấm trà sau bữa ăn của nhiều gia đình. Có trong Yodetox.</p>
+          <figure class="herb__plate"><img src="../assets/gung.jpg" width="1600" height="2084" loading="lazy" decoding="async" alt="Tranh khắc màu cây gừng với thân rễ, lá dài và hoa"><figcaption>Zingiber officinale, Köhler</figcaption></figure>
+        </li>
+        <li class="herb" style="--gap:96px">
+          <h3 class="herb__name">Bồ công anh, rễ và lá</h3>
+          <p class="herb__text">Dùng trong trà thảo mộc từ lâu ở nhiều nền ẩm thực. Có trong Yodetox.</p>
+          <figure class="herb__plate"><img src="../assets/bo-cong-anh.jpg" width="1600" height="2201" loading="lazy" decoding="async" alt="Tranh khắc màu cây bồ công anh: hoa vàng, quả cầu lông, lá răng cưa và rễ"><figcaption>Taraxacum officinale, Köhler</figcaption></figure>
+        </li>
+        <li class="herb" style="--gap:136px">
+          <h3 class="herb__name">Sen, phần lá</h3>
+          <p class="herb__text">Lá sen phơi khô, vị thanh, thường pha trà uống trong ngày hè. Có trong Yodetox.</p>
+          <figure class="herb__plate"><img src="../assets/sen.jpg" width="1417" height="2047" loading="lazy" decoding="async" alt="Tranh khắc màu cây sen với hoa hồng và lá tròn"><figcaption>Nelumbo nucifera, Flora de Filipinas</figcaption></figure>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 8. The reading list -->
+  <section class="reading" id="song-dep" aria-labelledby="reading-title">
+    <figure class="reading__plate" data-reveal="mask">
+      <img src="../assets/gung.jpg" width="1600" height="2084" loading="lazy" decoding="async" alt="Tranh khắc màu thân rễ gừng, lá và hoa">
+      <figcaption>Zingiber officinale, gừng. Tranh trong Köhler’s Medizinal-Pflanzen.</figcaption>
+    </figure>
+    <div class="reading__sheet paper scallop" data-reveal="sheet">
+      <h2 class="head reading__title" id="reading-title">Sống đẹp cùng Mayqueen</h2>
+      <p class="reading__note">Công thức, thói quen và kiến thức, do chuyên gia dinh dưỡng đọc duyệt.</p>
+
+      <div class="reading__group">
+        <h3>Công thức ăn uống</h3>
+        <ul data-stagger>
+          <li><a href="#cong-thuc"><span class="reading__row"><span>Canh rau má nấu tôm khô</span><span class="nums">15&nbsp;phút</span></span><span class="reading__desc">Bữa tối nhẹ, bốn khẩu phần.</span></a></li>
+          <li><a href="#cong-thuc"><span class="reading__row"><span>Salad ức gà sốt chanh dây</span><span class="nums">20&nbsp;phút</span></span><span class="reading__desc">Mang đi làm, giữ lạnh đến trưa.</span></a></li>
+          <li><a href="#cong-thuc"><span class="reading__row"><span>Trà gừng sả mật ong</span><span class="nums">10&nbsp;phút</span></span><span class="reading__desc">Một ấm cho cả nhà sau bữa tối.</span></a></li>
+          <li><a href="#cong-thuc"><span class="reading__row"><span>Cháo yến mạch hạt sen</span><span class="nums">25&nbsp;phút</span></span><span class="reading__desc">Bữa sáng ấm bụng trước giờ làm.</span></a></li>
+        </ul>
+      </div>
+
+      <div class="reading__group">
+        <h3>Lối sống khỏe</h3>
+        <ul data-stagger>
+          <li><a href="#loi-song"><span class="reading__row"><span>Ngủ đủ giấc và chuyện cân nặng</span><span class="nums">6&nbsp;phút đọc</span></span><span class="reading__desc">Vì sao thiếu ngủ khiến ta thèm ngọt.</span></a></li>
+          <li><a href="#loi-song"><span class="reading__row"><span>Đi bộ hai mươi phút sau bữa tối</span><span class="nums">4&nbsp;phút đọc</span></span><span class="reading__desc">Thói quen nhỏ, dễ giữ nhất trong tuần.</span></a></li>
+          <li><a href="#loi-song"><span class="reading__row"><span>Uống nước thế nào cho đủ</span><span class="nums">5&nbsp;phút đọc</span></span><span class="reading__desc">Một cách đếm đơn giản cho người bận rộn.</span></a></li>
+        </ul>
+      </div>
+
+      <div class="reading__group">
+        <h3>Kiến thức và khoa học</h3>
+        <ul data-stagger>
+          <li><a href="#kien-thuc"><span class="reading__row"><span>Glucomannan từ củ khoai nưa</span><span class="nums">7&nbsp;phút đọc</span></span><span class="reading__desc">Chất xơ này hoạt động ra sao, kèm nguồn nghiên cứu.</span></a></li>
+          <li><a href="#kien-thuc"><span class="reading__row"><span>Catechin trong trà xanh</span><span class="nums">8&nbsp;phút đọc</span></span><span class="reading__desc">Nghiên cứu nói gì, và chưa nói gì.</span></a></li>
+          <li><a href="#kien-thuc"><span class="reading__row"><span>Cách đọc nhãn thực phẩm chức năng</span><span class="nums">6&nbsp;phút đọc</span></span><span class="reading__desc">Số công bố, khuyến cáo và liều dùng nằm ở đâu.</span></a></li>
+        </ul>
+      </div>
+
+      <div class="reading__group">
+        <h3>Hỏi chuyên gia</h3>
+        <ul data-stagger>
+          <li><a href="#hoi-chuyen-gia"><span class="reading__row"><span>Uống Slim buổi sáng hay buổi tối?</span><span class="nums">3&nbsp;phút đọc</span></span><span class="reading__desc">Dược sĩ trả lời câu hỏi gặp nhiều nhất.</span></a></li>
+          <li><a href="#hoi-chuyen-gia"><span class="reading__row"><span>Dùng cùng cà phê có được không?</span><span class="nums">3&nbsp;phút đọc</span></span><span class="reading__desc">Khoảng cách nên giữ giữa hai lần uống.</span></a></li>
+        </ul>
+      </div>
+
+      <p class="reading__end">Bài mới vào thứ Ba và thứ Sáu hằng tuần.<br><a class="link-plain" href="#tat-ca-bai-viet">Xem tất cả bài viết</a></p>
+    </div>
+  </section>
+
+  <!-- 9. One letter from a buyer -->
+  <section class="review" id="danh-gia" aria-labelledby="review-title">
+    <h2 class="head review__title" id="review-title" data-lines>Khách hàng viết</h2>
+    <div class="review__letter">
+      <p class="review__open" data-reveal style="--i:0">Mình thích nhất là sáng nào cũng chỉ một viên, không phải nhớ nhiều thứ.</p>
+      <p data-reveal style="--i:1">Mình đặt combo một tháng qua Zalo. Dược sĩ hỏi kỹ về bữa ăn và giờ giấc trước khi chốt đơn, rồi nhắc mình đọc phần lưu ý ở mặt sau hộp.</p>
+      <p data-reveal style="--i:2">Hàng tới sau hai ngày, hộp còn tem niêm phong, số công bố in rõ. Viên dễ uống, không có mùi. Mình uống kèm với việc đi bộ buổi tối và bớt trà sữa, tháng sau sẽ đặt tiếp.</p>
+      <p class="review__name" data-reveal style="--i:3">Thu Hà</p>
+      <p class="review__role">Đà Nẵng, mua combo tháng 9/2026</p>
+    </div>
+    <aside class="review__policy" data-reveal style="--i:2">
+      <p><strong>Cách Mayqueen đăng đánh giá</strong></p>
+      <p>Chỉ khách đã mua mới viết được đánh giá. Mỗi đánh giá được duyệt trước khi hiển thị, và không có lời hứa về cân nặng.</p>
+      <p>Đây là đánh giá mẫu cho bản thiết kế.</p>
+    </aside>
+  </section>
+
+  <!-- 10. Ask, or choose -->
+  <section class="ask" id="tu-van" aria-labelledby="ask-title">
+    <h2 class="ask__line ask__line--top display" id="ask-title"><span data-push="left">Hỏi dược sĩ</span><span class="sr-only"> hay tự chọn?</span></h2>
+    <div class="ask__middle">
+      <div class="ask__choices">
+        <a class="button" href="https://zalo.me/" data-zalo>Chat Zalo</a>
+        <span class="ask__or">hoặc</span>
+        <a class="button button--paper" href="#phieu-tu-van">Làm phiếu tư vấn</a>
+      </div>
+      <p class="ask__after">Dược sĩ đại học trực Zalo từ 8:00 đến 21:00 mỗi ngày. Phiếu tư vấn mất khoảng một phút.</p>
+    </div>
+    <p class="ask__line ask__line--bottom display" aria-hidden="true"><span data-push="right">hay tự chọn?</span></p>
+  </section>
+
+  <!-- 11. The coupon insert -->
+  <section class="coupon-section" id="uu-dai" aria-labelledby="coupon-title">
+    <form class="coupon" data-coupon data-reveal="sheet">
+      <div class="coupon__left">
+        <h2 class="head coupon__title" id="coupon-title">Giảm 10% cho đơn đầu tiên</h2>
+        <p>Để lại số điện thoại hoặc email, mã giảm giá gửi tới bạn ngay. Mỗi tháng thêm một bản tin công thức, không hơn.</p>
+      </div>
+      <div class="coupon__right" data-coupon-body>
+        <span class="coupon__notch coupon__notch--a" aria-hidden="true"></span>
+        <span class="coupon__notch coupon__notch--b" aria-hidden="true"></span>
+        <label class="sr-only" for="c-name">Tên của bạn</label>
+        <input class="field" id="c-name" name="name" autocomplete="name" placeholder="Tên của bạn">
+        <label class="sr-only" for="c-contact">Số điện thoại hoặc email</label>
+        <input class="field" id="c-contact" name="contact" autocomplete="tel" inputmode="email" placeholder="Số điện thoại hoặc email" required>
+        <button class="button button--ink coupon__submit" type="submit">Nhận mã giảm giá</button>
+        <p class="coupon__fine">Khi đăng ký, bạn đồng ý với <a class="link-plain" href="#bao-mat">chính sách bảo mật</a>.</p>
+      </div>
+    </form>
+  </section>
+
+</main>
+
+<!-- 12. The back of the box, revealed under the page -->
+<footer class="footer" id="lien-he">
+  <div class="footer__media">
+    <video autoplay muted loop playsinline preload="metadata" poster="../assets/a-closeup-on-the-tea-plantation-in-poster.jpg" width="854" height="480" aria-hidden="true">
+      <source src="../assets/a-closeup-on-the-tea-plantation-in.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="footer__body">
+    <p class="wordmark footer__mark">Mayqueen</p>
+    <nav class="footer__menu" aria-label="Chân trang">
+      <a href="#san-pham">Sản phẩm</a>
+      <a href="#cau-chuyen">Về Mayqueen</a>
+      <a href="#song-dep">Sống đẹp</a>
+      <a href="#uu-dai">Khuyến mãi</a>
+      <a href="#noi-mua">Nơi mua</a>
+      <a href="#ho-tro">Hỗ trợ</a>
+    </nav>
+    <div class="footer__blocks">
+      <div>
+        <h2 class="footer__h">Liên hệ</h2>
+        <p>Hotline <a href="tel:18006789">1800 6789</a><br>Zalo OA Mayqueen<br><a href="mailto:xinchao@mayqueen.vn">xinchao@mayqueen.vn</a></p>
+      </div>
+      <div>
+        <h2 class="footer__h">Chính sách</h2>
+        <p><a href="#giao-hang">Giao hàng</a>, <a href="#doi-tra">đổi trả</a>, <a href="#bao-mat">bảo mật</a>, <a href="#dieu-khoan">điều khoản</a>, <a href="#tra-cuu">tra cứu đơn</a></p>
+      </div>
+      <div>
+        <h2 class="footer__h">Theo dõi</h2>
+        <p><a href="#facebook">Facebook</a>, <a href="#tiktok">TikTok</a>, <a href="#instagram">Instagram</a>, <a href="#youtube">YouTube</a></p>
+      </div>
+    </div>
+    <div class="footer__legal">
+      <p><strong>Thực phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh.</strong> Phụ nữ có thai, cho con bú và người đang điều trị bệnh nên hỏi ý kiến bác sĩ trước khi dùng.</p>
+      <p>© 2026 Công ty Mayqueen. Giấy phép kinh doanh và số tiếp nhận công bố đang cập nhật.</p>
+      <p class="footer__credits">Tranh và phim: Köhler’s Medizinal-Pflanzen (trà xanh, bứa, gừng, bồ công anh), Curtis’s Botanical Magazine (khoai nưa), Flora de Filipinas (sen), phạm vi công cộng, qua Wikimedia Commons; phim <a href="https://commons.wikimedia.org/wiki/File:A_closeup_on_the_tea_plantation_in_Western_Uganda.webm">“A closeup on the tea plantation in Western Uganda”</a> của B722N, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Mini cart -->
+<div class="scrim" data-scrim hidden></div>
+<aside class="drawer cart" id="cart" role="dialog" aria-modal="true" aria-labelledby="cart-title" hidden data-cart>
+  <div class="drawer__head">
+    <h2 class="drawer__title" id="cart-title">Giỏ hàng</h2>
+    <button class="icon-button" type="button" data-close aria-label="Đóng giỏ hàng"><svg width="22" height="22" aria-hidden="true"><use href="#i-close"/></svg></button>
+  </div>
+  <div class="cart__ship">
+    <p data-ship-text>Thêm 500.000&nbsp;đ để được miễn phí giao hàng.</p>
+    <div class="cart__bar" aria-hidden="true"><span data-ship-bar></span></div>
+  </div>
+  <ul class="cart__items" data-cart-items></ul>
+  <div class="cart__upsell" data-upsell hidden></div>
+  <div class="cart__foot">
+    <p class="cart__total"><span>Tạm tính</span><span class="nums" data-cart-total>0&nbsp;đ</span></p>
+    <a class="button cart__checkout" href="#thanh-toan">Thanh toán</a>
+    <p class="cart__note">Thanh toán khi nhận hàng, chuyển khoản QR, MoMo, ZaloPay, VNPay hoặc thẻ. Không cần tài khoản.</p>
+  </div>
+</aside>
+
+<!-- Menu on the phone -->
+<aside class="drawer menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu" hidden data-menu>
+  <div class="drawer__head">
+    <p class="wordmark">Mayqueen</p>
+    <button class="icon-button" type="button" data-close aria-label="Đóng menu"><svg width="22" height="22" aria-hidden="true"><use href="#i-close"/></svg></button>
+  </div>
+  <nav class="menu__nav" aria-label="Menu chính">
+    <div class="menu__group"><a class="menu__big" href="#san-pham">Sản phẩm</a><p><a href="#san-pham">Mayqueen Slim</a>, <a href="#san-pham">Yodetox</a>, <a href="#san-pham">Combo</a>, <a href="#phieu-tu-van">Phiếu tư vấn</a></p></div>
+    <div class="menu__group"><a class="menu__big" href="#cau-chuyen">Về Mayqueen</a><p><a href="#cau-chuyen">Câu chuyện</a>, <a href="#thanh-phan">Khoa học và thành phần</a>, <a href="#cam-ket">Chất lượng</a>, <a href="#tu-van">Chuyên gia</a></p></div>
+    <div class="menu__group"><a class="menu__big" href="#song-dep">Sống đẹp</a><p><a href="#song-dep">Công thức</a>, <a href="#song-dep">Lối sống</a>, <a href="#song-dep">Kiến thức</a>, <a href="#song-dep">Hỏi chuyên gia</a></p></div>
+    <div class="menu__group"><a class="menu__big" href="#uu-dai">Khuyến mãi</a></div>
+    <div class="menu__group"><a class="menu__big" href="#tai-khoan">Tài khoản</a><p><a href="#tra-cuu">Tra cứu đơn hàng</a>, <a href="#ho-tro">Hỗ trợ</a></p></div>
+  </nav>
+</aside>
+
+<!-- Search -->
+<aside class="drawer search" id="search" role="dialog" aria-modal="true" aria-label="Tìm kiếm" hidden data-search>
+  <div class="drawer__head">
+    <label class="drawer__title" for="q">Tìm sản phẩm và bài viết</label>
+    <button class="icon-button" type="button" data-close aria-label="Đóng tìm kiếm"><svg width="22" height="22" aria-hidden="true"><use href="#i-close"/></svg></button>
+  </div>
+  <input class="field" id="q" type="search" placeholder="Ví dụ: trà gừng, combo, cách uống">
+  <p class="search__hint">Tìm nhiều: <a class="link-plain" href="#san-pham">combo</a>, <a class="link-plain" href="#cach-dung">cách uống</a>, <a class="link-plain" href="#song-dep">trà gừng</a>, <a class="link-plain" href="#thanh-phan">khoai nưa</a></p>
+</aside>
+
+<a class="zalo" href="https://zalo.me/" data-zalo data-zalo-float aria-label="Chat Zalo với dược sĩ">
+  <svg width="22" height="22" aria-hidden="true"><use href="#i-chat"/></svg><span>Hỏi dược sĩ</span>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js"></script>
+<script src="../assets/scenes/stage.js"></script>
+<script src="../assets/scenes/thirty.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

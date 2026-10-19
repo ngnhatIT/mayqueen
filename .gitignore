@@ -1,0 +1,18 @@
+.claude/
+.taste-skill/*
+!.taste-skill/notes.md
+!.taste-skill/direction.json
+mock/assets/credits.json
+*.log
+# full-size originals kept locally; the pages use the compressed copies
+mock/assets/amorphophallus-konjac-knolle.jpg
+mock/assets/camellia-sinensis-in-bao-loc.jpg
+mock/assets/cut-and-uncut-passion-fruits.jpg
+mock/assets/dandelion-flower-macro-taraxacum-officinale.jpg
+mock/assets/garcinia-gummi-gutta-kudampuli-whole-fruit.jpg
+mock/assets/ginger-rhizomes.jpg
+mock/assets/leaves-of-centella-asiatica-against-the-sky.jpg
+mock/assets/lotus-flowers-vietnam-38834388684.jpg
+mock/assets/rolled-oats-2.jpg
+mock/assets/tea-hill-in-thai-nguyen.jpg
+mock/assets/white-lotus-seeds.jpg

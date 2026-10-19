@@ -1,0 +1,36 @@
+/* Scene "thirty": the 30 capsules of one bottle fill the 30 mornings of a month as the page scrolls.
+   The finished composition (no script, reduced motion, a failed CDN) is the full month, every day filled. */
+
+.thirty { background: var(--ground, #F8F6EE); padding-block: calc(var(--section, 160px) * 0.75); }
+.thirty__grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gutter, 24px); align-items: center; padding-inline: var(--margin, 24px); }
+.thirty__text { grid-column: 1 / 6; max-width: 34rem; }
+.thirty__text p { margin-top: 18px; max-width: 40ch; }
+.thirty__text .head + p { margin-top: 28px; }
+.thirty__count { margin-top: 36px !important; color: var(--leaf-deep, #2F5D3A); font-weight: 500; }
+.thirty__count [data-count] { display: inline-block; }
+.thirty__month { grid-column: 6 / 13; display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 5fr); column-gap: var(--gutter, 24px); align-items: end; }
+.thirty__bottle-wrap { width: 100%; max-width: 190px; justify-self: center; }
+.thirty__bottle { width: 100%; height: auto; transform-origin: 50% 85%; }
+.days { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; }
+.day { position: relative; aspect-ratio: 1; background: var(--paper-2, #EDECDF); }
+.day__fill { position: absolute; inset: 0; background: var(--leaf-pale, #D6EBB0); }
+.day__n { position: absolute; top: 6px; left: 9px; z-index: 1; font-size: var(--step-small, 13px); line-height: 1.2; color: var(--muted, #4F5D53); font-variant-numeric: tabular-nums; }
+.day__pill { position: absolute; left: 16%; right: 16%; top: 42%; z-index: 2; display: block; }
+.day__pill svg { width: 100%; height: auto; rotate: -28deg; background: transparent; }
+
+/* live: the stage is held, the composition is centred in one screen */
+.thirty.is-live { padding-block: 0; }
+.thirty.is-live .scene-stage { display: flex; align-items: center; }
+.thirty.is-live .thirty__grid { width: 100%; }
+
+@media (max-width: 47.99em) {
+  .thirty__grid { display: block; }
+  .thirty__text p { margin-top: 12px; }
+  .thirty__text .head + p { margin-top: 18px; }
+  .thirty__count { margin-top: 20px !important; }
+  .thirty__month { display: block; margin-top: 28px; }
+  .thirty__bottle-wrap { display: none; }
+  .days { gap: 5px; }
+  .day__n { top: 3px; left: 5px; }
+  .thirty.is-live .thirty__text p:not(.thirty__count):last-of-type { display: none; }
+}
